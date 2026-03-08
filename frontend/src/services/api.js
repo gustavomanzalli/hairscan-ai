@@ -6,7 +6,7 @@
 import axios from "axios";
 
 // URL base do backend — altere para a URL do seu Azure Functions em produção
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:7071/api";
+const API_BASE = import.meta.env.VITE_API_URL || "https://func-hairscan-ai-ftgqdvfyceavggfn.brazilsouth-01.azurewebsites.net/ap";
 
 const api = axios.create({
   baseURL: API_BASE,
